@@ -1,5 +1,5 @@
 suppressMessages({library(singscore);library(org.Mm.eg.db);library(org.Hs.eg.db);library(AnnotationDbi)})
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 GS<-read.csv(file.path(C,"genesets.csv"),stringsAsFactors=FALSE)
 prep<-function(M,sc,db,it){
   m<-as.matrix(M); mode(m)<-"numeric"; m[!is.finite(m)]<-0

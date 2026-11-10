@@ -1,5 +1,5 @@
 suppressMessages(library(singscore))
-CACHE<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+CACHE<-Sys.getenv("M1_CACHE", "cache_matrices")
 GS<-rbind(read.csv(file.path(CACHE,"genesets.csv"),stringsAsFactors=FALSE)[,c("set","genes")],
           read.csv(file.path(CACHE,"genesets_effector.csv"),stringsAsFactors=FALSE)[,c("set","genes")])
 getg<-function(sn) unique(strsplit(GS$genes[GS$set==sn],";")[[1]])

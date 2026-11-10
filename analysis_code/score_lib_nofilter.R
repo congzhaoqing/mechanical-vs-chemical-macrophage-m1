@@ -1,10 +1,10 @@
 
 suppressMessages({library(singscore); library(limma); library(GSEABase)})
 
-GSFILE <- "/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices/genesets.csv"
+GSFILE <- file.path(Sys.getenv("M1_CACHE", "cache_matrices"), "genesets.csv")
 .gs <- read.csv(GSFILE, stringsAsFactors=FALSE)
 GENESETS <- setNames(lapply(.gs$genes, function(s) unique(strsplit(s, ";")[[1]])), .gs$set)
-.ef <- read.csv(file.path("/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices","genesets_effector.csv"), stringsAsFactors=FALSE)
+.ef <- read.csv(file.path(Sys.getenv("M1_CACHE", "cache_matrices"),"genesets_effector.csv"), stringsAsFactors=FALSE)
 names(.ef)[1] <- "set"
 GENESETS <- c(GENESETS, setNames(lapply(.ef$genes, function(s) unique(strsplit(s, ";")[[1]])), .ef$set))
 MODULES <- c("ISG_IFNA","ISG_IFNG","ISG_ISGF3","YAP","EFF_TNFA_NFKB","EFF_INFLAMM","EFF_FIELD_PANEL")

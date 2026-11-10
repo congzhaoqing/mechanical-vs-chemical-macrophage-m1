@@ -1,5 +1,5 @@
 suppressMessages({library(singscore);library(org.Mm.eg.db);library(AnnotationDbi)})
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 GS<-read.csv(file.path(C,"genesets.csv"),stringsAsFactors=FALSE)
 SP<-read.csv(file.path(C,"_contrast_spec.csv"),stringsAsFactors=FALSE)
 isg<-unique(strsplit(GS$genes[GS$set=="ISG_ISGF3_m"],";")[[1]])

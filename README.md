@@ -45,6 +45,29 @@ Meta-analysis is DerSimonian-Laird random effects with confidence intervals on t
 degrees of freedom, two-one-sided-tests equivalence, Kish effective study count, and an
 exhaustive 2^K study-level sign-flip permutation.
 
+## Running the code
+
+The scripts locate their inputs through two environment variables, each falling back to a
+directory of the same name next to the script tree:
+
+| variable | default | contents |
+|---|---|---|
+| `M1_CACHE` | `cache_matrices` | processed expression matrices and the gene-set definitions (`genesets.csv`, `genesets_effector.csv`) |
+| `M1_PROVENANCE` | `provenance` | contrast specifications and anchor catalogue (included in this repository) |
+
+`genesets.csv` is also included under `provenance/`, so pointing `M1_CACHE` at a directory
+holding the rebuilt matrices and copying that file across is enough to run the scoring
+pipeline:
+
+```bash
+export M1_CACHE=/path/to/cache_matrices
+Rscript analysis_code/run_bulk_nofilter.R
+```
+
+Rebuild the matrix cache from the public repositories using
+`provenance/cache_MANIFEST.csv` and `provenance/cache_README.md`.
+
+
 ## Software
 
 R 4.4.3 (singscore 1.26.0, limma 3.62.1, GSEABase 1.68.0, msigdbr, babelgene,

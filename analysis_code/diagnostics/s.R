@@ -1,4 +1,4 @@
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 SP<-read.csv(file.path(C,"_contrast_spec.csv"),stringsAsFactors=FALSE)
 for(f in c("GSE321887_RNAseq_countMatrix.tsv.gz","GSE273834_Salmon.norm.tpm.csv.gz","GSE239377_collagen_RNAseq_TPM.txt.gz")){
   sep<-if(grepl("tsv|txt",f)) "\t" else ","

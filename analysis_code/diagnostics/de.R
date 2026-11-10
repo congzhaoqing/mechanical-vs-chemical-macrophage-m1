@@ -1,5 +1,5 @@
 suppressMessages({library(limma);library(org.Mm.eg.db);library(AnnotationDbi)})
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 SP<-read.csv(file.path(C,"_contrast_spec.csv"),stringsAsFactors=FALSE)
 sp<-SP[SP$study=="S1a_GSE274336",]
 M<-read.csv(file.path(C,"GSE274336_counts.csv.gz"),row.names=1,check.names=FALSE)

@@ -1,7 +1,7 @@
 suppressMessages({library(singscore);library(org.Mm.eg.db);library(AnnotationDbi)})
 set.seed(1)
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
-D<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/项目二_交付学生审阅/05_provenance"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
+D<-Sys.getenv("M1_PROVENANCE", "provenance")
 GS<-read.csv(file.path(C,"genesets.csv"),stringsAsFactors=FALSE)
 EF<-read.csv(file.path(D,"B1_effector_genesets.csv"),stringsAsFactors=FALSE)
 cat("effector set columns:",paste(names(EF),collapse=","),"\n"); print(head(EF,3))

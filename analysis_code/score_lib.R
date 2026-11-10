@@ -1,7 +1,7 @@
 
 suppressMessages({library(singscore); library(limma); library(GSEABase)})
 
-GSFILE <- "/Users/zhaoqingcong/.claude-science/orgs/f2d2644f-53fc-4769-b6b1-ac1e093f52d2/artifacts/proj_5da7721901df/8abc7776-2da6-4646-a61d-458fe86e5e95/v56e54131_genesets.csv"
+GSFILE <- file.path(Sys.getenv("M1_CACHE", "cache_matrices"), "genesets.csv")
 .gs <- read.csv(GSFILE, stringsAsFactors=FALSE)
 GENESETS <- setNames(lapply(.gs$genes, function(s) unique(strsplit(s, ";")[[1]])), .gs$set)
 MODULES <- c("ISG_IFNA","ISG_IFNG","ISG_ISGF3","YAP")

@@ -1,5 +1,5 @@
 suppressMessages({library(singscore);library(org.Mm.eg.db);library(org.Hs.eg.db);library(AnnotationDbi)})
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 G1<-read.csv(file.path(C,"genesets.csv"),stringsAsFactors=FALSE)
 G2<-read.csv(file.path(C,"genesets_effector.csv"),stringsAsFactors=FALSE); names(G2)[1]<-"set"
 GS<-rbind(G1[,c("set","genes")],G2[,c("set","genes")])

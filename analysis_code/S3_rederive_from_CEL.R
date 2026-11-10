@@ -1,5 +1,5 @@
 suppressMessages({library(affy)}); source("score_lib_nofilter.R")
-C <- "/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C <- Sys.getenv("M1_CACHE", "cache_matrices")
 SP <- read.csv(file.path(C,"_contrast_spec.csv"), stringsAsFactors=FALSE); sp <- SP[SP$study=="S3_GSE36878",]
 an <- read.csv(file.path(C,"GPL11180_annot.tsv"), sep="\t", check.names=FALSE, quote="")
 map <- setNames(as.character(an$symbol), as.character(an$ID))

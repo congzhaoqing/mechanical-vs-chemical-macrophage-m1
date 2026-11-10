@@ -1,5 +1,5 @@
 suppressMessages({library(singscore);library(org.Mm.eg.db);library(AnnotationDbi)})
-C<-"/Users/zhaoqingcong/Documents/My Mac/Documents/Stony Brook/Code/Claude/bioinfo project/执行v5/cache_matrices"
+C<-Sys.getenv("M1_CACHE", "cache_matrices")
 GS<-read.csv(file.path(C,"genesets.csv"),stringsAsFactors=FALSE)
 cat("gene sets available:\n"); print(data.frame(set=GS$set, n=sapply(strsplit(GS$genes,";"),function(x)length(unique(x)))))
 full<-read.csv(file.path(C,"GSE274020_20240802_Raw_Counts.csv.gz"),row.names=1,check.names=FALSE)
