@@ -1,0 +1,10 @@
+variant,delta_ISGF3,se,pct_of_mouse_anchor
+"series matrix, all 21 cols, collapse by max row-mean",0.000515,0.002718,0.413
+"series matrix, all 21 cols, collapse by max value",0.000439,0.002973,0.352
+"series matrix, all 21 cols, collapse by first probe",0.000837,0.002333,0.672
+"series matrix, all 21 cols, collapse by mean",0.000478,0.003243,0.384
+"series matrix, all 21 cols, no probe collapse",0.000183,0.002428,0.147
+"series matrix, subset to 18 contrast cols first",0.000599,0.002743,0.481
+"re-RMA from raw CEL, all 21 arrays",0.000517,0.002718,0.415
+"re-RMA from raw CEL, 18 contrast arrays",-8.7e-05,0.002646,-0.07
+PUBLISHED,-0.000223,0.002744,-0.179

@@ -1,0 +1,17 @@
+id,modality,species,cells,contrast
+E-MTAB-15203,Piezo1 agonist,human,primary MDM 6 donors,Yoda1 vs DMSO (donor-paired)
+GSE125806,cyclic stretch (in vivo),mouse,whole skin,stretched vs unstretched skin
+GSE133069,hydrostatic pressure,mouse,BMDM Piezo1 fl/fl,cyclic vs static hydrostatic pressure
+GSE143780,fluid shear (in vivo),human,whole circulating leukocytes,CPB end vs pre-bypass (patient-paired)
+GSE185761,biomaterial (in vivo),mouse,FBR capsule macrophages,PEG hydrogel day14 vs no implant
+GSE190470,cyclic stretch,mouse,BMDM,si-Piezo1 vs si-NC both stretched
+GSE236912,ultrasound + piezoelectric substrate,mouse,RAW264.7,membrane+LIPUS vs blank control
+GSE273466,ultrasound,mouse,RAW264.7,LPS+LIPUS vs LPS
+GSE273977,magneto-mechanical (lysosomal),mouse,RAW264.7 IL-4/IL-13 M2,RMF+nanomotors vs control
+GSE285024,confinement,mouse,primary BMDM (WT),3 um confinement vs unconfined
+GSE290857,surface topography,mouse,RAW264.7,nano/microstructured sulfonated PEEK vs smooth PEEK
+GSE303278,acoustic,mouse,RAW264.7,5 kHz nanoscale oscillation on vs off
+GSE304867,compression,mouse,RAW264.7,0.14 kPa compression vs uncompressed agarose
+GSE314256,ultrasound,human,THP-1 macrophages,Fnfs-M1+cLIUS vs Fnfs-M1
+GSE331328,ultrasound,mouse,RAW264.7,LPS+ultrasound vs LPS
+GSE344008,fluid viscosity,mouse,RAW264.7,1.2% methylcellulose vs 0%

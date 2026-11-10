@@ -1,0 +1,77 @@
+file,size_MB,accession,role
+GSE253423_raw_read_quant.table.txt.gz,1.22,GSE253423,chemical/mechanical anchor
+GSE274020_20240802_Raw_Counts.csv.gz,1.95,GSE274020,chemical/mechanical anchor
+GSE46903_non-normalized.txt.gz,108.4,GSE46903,chemical/mechanical anchor
+GSE69607_RAW.tar,29.51,GSE69607,chemical/mechanical anchor
+GSE99445_series_matrix.txt.gz,2.58,GSE99445,chemical/mechanical anchor
+GSE99446_ann.csv,0.0,GSE99446,chemical/mechanical anchor
+GSE99446_expr.csv,11.0,GSE99446,chemical/mechanical anchor
+GSE99446_expr_sym.csv,10.88,GSE99446,chemical/mechanical anchor
+GSE99446_series_matrix.txt.gz,2.56,GSE99446,chemical/mechanical anchor
+E-MTAB-7900.sdrf.txt,0.03,E-MTAB-7900,main pool (K=10)
+E-MTAB-7900_gene_counts_GRCr8.csv,1.17,E-MTAB-7900,main pool (K=10)
+E-MTAB-7900_run_urls.csv,0.0,E-MTAB-7900,main pool (K=10)
+E-MTAB-7900_sample_metadata.csv,0.0,E-MTAB-7900,main pool (K=10)
+GSE206771_Counts.csv.gz,0.31,GSE206771,main pool (K=10)
+GSE239377_collagen_RNAseq_TPM.txt.gz,1.15,GSE239377,main pool (K=10)
+GSE273834_Salmon.norm.tpm.csv.gz,1.35,GSE273834,main pool (K=10)
+GSE274019_20240603_counts.txt.gz,0.4,GSE274019,main pool (K=10)
+GSE274336_counts.csv.gz,1.8,GSE274336,main pool (K=10)
+GSE291556_RAW.tar,0.69,GSE291556,main pool (K=10)
+GSE301422_RawCounts.txt.gz,1.61,GSE301422,main pool (K=10)
+GSE312997.xlsx,3.76,GSE312997,main pool (K=10)
+GSE312997_sheet1_counts.csv,1.39,GSE312997,main pool (K=10)
+GSE312997_sheet2_counts.csv,1.14,GSE312997,main pool (K=10)
+GSE321887_RNAseq_countMatrix.tsv.gz,0.52,GSE321887,main pool (K=10)
+GSE36878_RAW.tar,45.46,GSE36878,main pool (K=10)
+GSE275018_RAW.tar,969.41,GSE275018,"modality projection (three-arm magnetomechanics, Figure 8)"
+GSE283034_RAW.tar,75.33,GSE283034,sensitivity set
+GSE299513_RAW.tar,57.07,GSE299513,sensitivity set
+GSE299513_gene_tpm.csv,10.61,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040074_Sample_1_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040075_Sample_2_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040076_Sample_3_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040077_Sample_4_abundance.tsv.gz,1.32,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040078_Sample_5_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040079_Sample_6_abundance.tsv.gz,1.33,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040080_Sample_7_abundance.tsv.gz,1.4,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040081_Sample_8_abundance.tsv.gz,1.36,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040082_Sample_9_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040083_Sample_10_abundance.tsv.gz,1.33,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040084_Sample_11_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040085_Sample_12_abundance.tsv.gz,1.31,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040086_Sample_13_abundance.tsv.gz,1.33,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040087_Sample_14_abundance.tsv.gz,1.38,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040088_Sample_15_abundance.tsv.gz,1.38,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040089_Sample_16_abundance.tsv.gz,1.24,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040090_Sample_17_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040091_Sample_18_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040092_Sample_19_abundance.tsv.gz,1.3,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040093_Sample_20_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040094_Sample_21_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040095_Sample_22_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040096_Sample_23_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040097_Sample_24_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040098_Sample_25_abundance.tsv.gz,1.31,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040099_Sample_26_abundance.tsv.gz,1.33,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040100_Sample_27_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040101_Sample_28_abundance.tsv.gz,1.3,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040102_Sample_29_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040103_Sample_30_abundance.tsv.gz,1.31,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040104_Sample_31_abundance.tsv.gz,1.36,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040105_Sample_33_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040106_Sample_34_abundance.tsv.gz,1.29,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040107_Sample_35_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040108_Sample_36_abundance.tsv.gz,1.35,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040109_Sample_37_abundance.tsv.gz,1.41,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040110_Sample_38_abundance.tsv.gz,1.26,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040111_Sample_39_abundance.tsv.gz,1.34,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040112_Sample_40_abundance.tsv.gz,1.29,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040113_Sample_41_abundance.tsv.gz,1.38,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040114_Sample_42_abundance.tsv.gz,1.28,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040115_Sample_43_abundance.tsv.gz,1.29,GSE299513,sensitivity set
+GSE299513_kallisto/GSM9040116_Sample_44_abundance.tsv.gz,1.3,GSE299513,sensitivity set
+MANIFEST.csv,0.0,,shared
+README.md,0.0,,shared
+genesets.csv,0.01,,shared
+score_lib.R,0.01,,shared

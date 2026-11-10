@@ -1,0 +1,15 @@
+.DS_Store
+*.docx
+*.zip
+*.rds
+*.RData
+.Rhistory
+__pycache__/
+*.pyc
+cache_matrices/
+*.tar.gz
+*.CEL
+*.CEL.gz
+*.h5ad
+*.mtx
+*.mtx.gz

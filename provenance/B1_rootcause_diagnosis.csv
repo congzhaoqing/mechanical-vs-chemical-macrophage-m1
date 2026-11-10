@@ -1,0 +1,8 @@
+study,label,published_delta,rebuilt_filtered,rebuilt_matching,bg_filtered,bg_unfiltered,cause,status
+A_GSE274020_LPS6h,"anchor, mouse LPS 6 h",0.124549,0.20567,0.124549,15685,25850,no detection filter,EXACT
+A_GSE253423_LPS4h,"anchor, mouse LPS 4 h",0.138004,0.21535,0.13699,15705,25098,no detection filter,0.7% off
+S8_GSE301422,THP-1 materials (human),-0.000726,0.00166,-0.00073,17763,35949,no detection filter,EXACT
+S7_GSE206771,Viscoelastic 3D (mouse),-0.023663,-0.02487,-0.02481,15831,15879,filter immaterial (few zeros),"5% off, already OK"
+S4_GSE273834,CaMKK2 3D (mouse),-0.084058,-0.04529,-0.08406,13659,14098,"contrast: WT only, not WT+KO stratified",EXACT
+S2_GSE321887,SSc monocytes (human),-0.011429,-0.02992,-0.01143,16172,36189,"contrast: donor positions 2 vs 3, not 1 vs 3",EXACT
+S5_GSE239377,Collagen 3D (mouse),-0.008268,0.03821,0.02709,15930,25645,UNRESOLVED (closest variant 2mg vs 7mg = -0.01082),unresolved
