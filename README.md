@@ -9,6 +9,8 @@ Department of Urology and Stony Brook Cancer Center, Renaissance School of Medic
 Stony Brook University, Stony Brook, NY, USA.
 Correspondence: Zhaoqing.Cong@stonybrookmedicine.edu
 
+Preprint: https://doi.org/10.64898/2026.11.10.765627 (bioRxiv, posted 11 November 2026, CC BY 4.0)
+
 ## What this repository contains
 
 | folder | contents |
